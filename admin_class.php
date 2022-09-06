@@ -164,6 +164,7 @@ Class Action {
 					foreach($files as $k =>$v){
 						if(!in_array($v, array('.','..'))){
 							unlink($folder."/".$v);
+							unlink($folder."/".$v);
 						}
 					}
 				}else{
